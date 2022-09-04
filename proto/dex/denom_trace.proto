@@ -1,0 +1,13 @@
+syntax = "proto3";
+package interchange.dex;
+
+option go_package = "interchange/x/dex/types";
+
+message DenomTrace {
+  string index = 1; 
+  string port = 2; 
+  string channel = 3; 
+  string origin = 4; 
+  
+}
+
